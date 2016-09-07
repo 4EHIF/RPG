@@ -8,7 +8,9 @@
   <sprites name="sprites">
     <sprite>sprites\btn_CC</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_Main_Menu</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts"/>
   <objects name="objects">
