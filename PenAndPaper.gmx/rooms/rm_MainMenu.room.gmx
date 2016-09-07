@@ -53,7 +53,8 @@
   <instances>
     <instance objName="ob_button" x="992" y="480" name="inst_1E230B5D" locked="0" code="text=&quot;Start Game&quot;;&#xA;ID=0;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ob_button" x="992" y="544" name="inst_7D96C321" locked="0" code="text=&quot;Create Character&quot;;&#xA;ID=1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ob_button" x="992" y="608" name="inst_88461915" locked="0" code="text=&quot;Load Game&quot;;&#xA;ID=2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ob_button" x="992" y="608" name="inst_88461915" locked="0" code="text=&quot;Load Game&quot;;&#xA;ID=2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ob_button" x="991" y="674" name="inst_D7709856" locked="0" code="text=&quot;Exit Game&quot;;&#xA;ID=3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
