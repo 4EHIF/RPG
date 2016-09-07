@@ -15,12 +15,15 @@
     <background>background\bg_Main_Menu</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\ob_CreateChar</object>
+    <object>objects\ob_Strt_Game</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_MainMenu</room>
     <room>rooms\rm_CharCreation</room>
+    <room>rooms\rm_Game</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
