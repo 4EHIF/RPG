@@ -6,19 +6,17 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\btn_CC</sprite>
-    <sprite>sprites\btn_LG</sprite>
-    <sprite>sprites\btn_SG</sprite>
-    <sprite>sprites\btn_EaGM</sprite>
+    <sprite>sprites\Button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Main_Menu</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_button</font>
+  </fonts>
   <objects name="objects">
-    <object>objects\ob_CreateChar</object>
-    <object>objects\ob_Strt_Game</object>
-    <object>objects\ob_EAGM</object>
+    <object>objects\ob_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_MainMenu</room>
