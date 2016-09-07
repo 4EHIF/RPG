@@ -10,8 +10,13 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts"/>
+  <objects name="objects">
+    <object>objects\ob_CreateChar</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\rm_MainMenu</room>
+    <room>rooms\rm_CharCreation</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
