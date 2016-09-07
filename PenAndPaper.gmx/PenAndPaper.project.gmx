@@ -7,12 +7,14 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\btn_CC</sprite>
+    <sprite>sprites\btn_LG</sprite>
+    <sprite>sprites\btn_SG</sprite>
+    <sprite>sprites\btn_EaGM</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Main_Menu</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\ob_CreateChar</object>
   </objects>
