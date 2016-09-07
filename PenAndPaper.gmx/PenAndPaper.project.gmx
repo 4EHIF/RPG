@@ -18,11 +18,13 @@
   <objects name="objects">
     <object>objects\ob_CreateChar</object>
     <object>objects\ob_Strt_Game</object>
+    <object>objects\ob_EAGM</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_MainMenu</room>
     <room>rooms\rm_CharCreation</room>
     <room>rooms\rm_Game</room>
+    <room>rooms\rm_GM_Game</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
