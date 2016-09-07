@@ -31,7 +31,7 @@ case 0:
     room_goto(rm_Game);
     break;
 case 1:
-    game_end();
+    room_goto(rm_CharCreation);
     break;
 }
 </string>
