@@ -1,4 +1,4 @@
-
+>>>import Serialization
 
 	class RegistrationForm(Form):
 		username = TextField('Username', [validators.Length(min=4, max=20)])
@@ -8,6 +8,7 @@
         validators.EqualTo('confirm', message='Passwords must match')
     	])
     	confirm = PasswordField('Repeat Password')
+    	Serialization.SerializeUsernameToJson(username)
     
 
     
