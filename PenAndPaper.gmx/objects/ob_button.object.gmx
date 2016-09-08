@@ -33,9 +33,20 @@ case 0:
 case 1:
     room_goto(rm_CharCreation);
     break;
-
+case 2:
+    //To do
 case 3:
     game_end();
+    break;
+case 4: //Return from CharCreation
+    room_goto(rm_MainMenu);
+    break;
+case 5: //return from Choose Character
+room_goto(rm_MainMenu);
+    break;
+case 6: //return from Choose Party
+room_goto(rm_MainMenu);
+    break;
 }
 </string>
           </argument>

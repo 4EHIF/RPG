@@ -21,8 +21,8 @@
   <rooms name="rooms">
     <room>rooms\rm_MainMenu</room>
     <room>rooms\rm_CharCreation</room>
-    <room>rooms\rm_Game</room>
-    <room>rooms\rm_GM_Game</room>
+    <room>rooms\rm_Choose_Char</room>
+    <room>rooms\rm_Choose_Party</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
