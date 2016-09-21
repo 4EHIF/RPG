@@ -63,9 +63,12 @@
     <object>objects\Inventory</object>
     <object>objects\ob_Buttons</object>
     <object>objects\GUI</object>
-    <object>objects\Player</object>
     <object>objects\obj_enemy_slime</object>
     <object>objects\obj_view</object>
+    <objects name="Player">
+      <object>objects\Player</object>
+      <object>objects\obj_player_stats</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_FirstRoom</room>

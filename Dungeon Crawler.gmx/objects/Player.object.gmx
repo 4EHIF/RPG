@@ -64,8 +64,13 @@ face = RIGHT;
           <argument>
             <kind>1</kind>
             <string>///Moves the player
-event_inherited();
+depth = -y;
 script_execute(state);
+//Check for death
+if(obj_player_stats.hp &lt;= 0) 
+{
+instance_destroy();
+}
 </string>
           </argument>
         </arguments>
