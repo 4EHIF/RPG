@@ -1,4 +1,8 @@
-///scr_move_state
+///scr_dash_state
+if  (len==0)
+{
+    dir=face*90;
+}
 len = spd*4;
 
 //Get the hspd and vspd 
