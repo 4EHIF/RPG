@@ -40,7 +40,7 @@ if(len = 0) image_index = 0;
 
 switch(face)
 {
-//left needs to be right etc. kinda fucked up no idea why
+
     case RIGHT:
         sprite_index = spr_player_right;
             break;
