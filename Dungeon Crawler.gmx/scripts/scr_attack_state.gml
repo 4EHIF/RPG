@@ -22,5 +22,6 @@ if(image_index >= 1 && attacked == false)
 {
 var damage = instance_create(x,y,obj_damage); //turns into the id of the object creating the instance
 damage.creator = id;
+damage.damage = obj_player_stats.attack;
 attacked = true;
 }

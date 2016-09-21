@@ -23,6 +23,7 @@
         <sprite>sprites\spr_player_attack_down</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_expr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Grass</background>
@@ -70,6 +71,7 @@
       <object>objects\obj_player_stats</object>
       <object>objects\obj_dash_effect</object>
     </objects>
+    <object>objects\obj_expr</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_FirstRoom</room>
