@@ -68,6 +68,7 @@
     <objects name="Player">
       <object>objects\Player</object>
       <object>objects\obj_player_stats</object>
+      <object>objects\obj_dash_effect</object>
     </objects>
   </objects>
   <rooms name="rooms">

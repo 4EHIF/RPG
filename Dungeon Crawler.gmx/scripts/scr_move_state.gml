@@ -1,6 +1,11 @@
 ///scr_move_state
 scr_get_input();
 
+if(dash_key)
+{
+state=scr_dash_state;
+alarm[0]=room_speed/10;
+}
 
 if(attack_key)
 {
