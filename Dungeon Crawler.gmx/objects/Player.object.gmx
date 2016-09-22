@@ -3,7 +3,7 @@
   <spriteName>spr_player_down</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10</depth>
   <persistent>-1</persistent>
   <parentName>obj_lifeform_parent</parentName>
   <maskName>&lt;undefined&gt;</maskName>

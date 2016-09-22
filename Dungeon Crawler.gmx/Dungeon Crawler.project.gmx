@@ -23,10 +23,12 @@
         <sprite>sprites\spr_player_attack_down</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_expr</sprite>
-    <sprite>sprites\spr_Health</sprite>
     <sprite>sprites\spr_Door</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprites name="Items">
+      <sprite>sprites\spr_Health</sprite>
+      <sprite>sprites\spr_expr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Grass</background>
