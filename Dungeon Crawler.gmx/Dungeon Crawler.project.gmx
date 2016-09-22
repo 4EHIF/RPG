@@ -24,6 +24,7 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr_expr</sprite>
+    <sprite>sprites\spr_Health</sprite>
     <sprite>sprites\spr_Door</sprite>
     <sprite>sprites\spr_wall</sprite>
   </sprites>
@@ -55,6 +56,9 @@
       <script>scripts\scr_enemy_wander_state.gml</script>
       <script>scripts\scr_enemy_chase_state.gml</script>
     </scripts>
+    <scripts name="helperscripts">
+      <script>scripts\scr_chance.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_button</font>
@@ -64,7 +68,6 @@
     <object>objects\obj_damage</object>
     <object>objects\obj_lifeform_parent</object>
     <object>objects\Inventory</object>
-    <object>objects\ob_Buttons</object>
     <object>objects\GUI</object>
     <object>objects\obj_enemy_slime</object>
     <object>objects\obj_view</object>
@@ -73,10 +76,13 @@
       <object>objects\obj_player_stats</object>
       <object>objects\obj_dash_effect</object>
     </objects>
-    <object>objects\obj_expr</object>
     <objects name="World And Surroundings">
       <object>objects\obj_wall</object>
       <object>objects\obj_Door</object>
+    </objects>
+    <objects name="ItemDrop">
+      <object>objects\obj_health</object>
+      <object>objects\obj_expr</object>
     </objects>
   </objects>
   <rooms name="rooms">
