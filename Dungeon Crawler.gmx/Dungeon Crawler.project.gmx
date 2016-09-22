@@ -24,6 +24,8 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr_expr</sprite>
+    <sprite>sprites\spr_Door</sprite>
+    <sprite>sprites\spr_wall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Grass</background>
@@ -72,9 +74,14 @@
       <object>objects\obj_dash_effect</object>
     </objects>
     <object>objects\obj_expr</object>
+    <objects name="World And Surroundings">
+      <object>objects\obj_wall</object>
+      <object>objects\obj_Door</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_FirstRoom</room>
+    <room>rooms\rm_SecondRoom</room>
     <room>rooms\rm_MainMenu</room>
     <room>rooms\rm_CharCreation</room>
   </rooms>
