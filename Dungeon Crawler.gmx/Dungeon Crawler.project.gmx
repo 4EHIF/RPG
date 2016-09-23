@@ -7,7 +7,6 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_damage</sprite>
-    <sprite>sprites\Enemy</sprite>
     <sprite>sprites\spr_items</sprite>
     <sprite>sprites\spr_Button</sprite>
     <sprite>sprites\spr_Box</sprite>
@@ -29,6 +28,7 @@
       <sprite>sprites\spr_Health</sprite>
       <sprite>sprites\spr_expr</sprite>
     </sprites>
+    <sprite>sprites\spr_Slime</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Grass</background>
