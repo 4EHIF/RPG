@@ -28,7 +28,9 @@
       <sprite>sprites\spr_Health</sprite>
       <sprite>sprites\spr_expr</sprite>
     </sprites>
-    <sprite>sprites\spr_Slime</sprite>
+    <sprites name="Enemys">
+      <sprite>sprites\spr_Slime</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Grass</background>
