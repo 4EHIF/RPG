@@ -83,12 +83,17 @@
     <objects name="World And Surroundings">
       <object>objects\obj_wall</object>
       <object>objects\obj_Door</object>
+      <object>objects\obj_sign</object>
     </objects>
     <objects name="ItemDrop">
       <object>objects\obj_health</object>
       <object>objects\obj_expr</object>
     </objects>
-    <object>objects\obj_input</object>
+    <objects name="Helper objects">
+      <object>objects\obj_dialog</object>
+      <object>objects\obj_speaker</object>
+      <object>objects\obj_input</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_FirstRoom</room>
