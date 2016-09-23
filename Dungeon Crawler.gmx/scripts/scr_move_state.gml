@@ -1,17 +1,44 @@
 ///scr_move_state
 
-if(obj_input.dash_key && obj_player_stats.stamina >= 5)
+if(obj_input.dash_key)
 {
-state=scr_dash_state;
-alarm[0]=room_speed/10;
-obj_player_stats.stamina -= 5;
-obj_player_stats.alarm[0] = room_speed;
+    var xdir = lengthdir_x(8,face * 90);
+    var ydir = lengthdir_y(8,face*90);
+    var speaker = instance_place(x+xdir,y+ydir, obj_speaker);
+    if(speaker != noone)
+    {
+        with(speaker)
+    {
+        if(!instance_exists(dialog))
+        {
+            dialog = instance_create(x+xoffset,y+yoffset,obj_dialog);
+            dialog.text = text;
+        } else {
+            dialog.text_page++;
+            dialog.text_count = 0;
+            if(dialog.text_page > array_length_1d(dialog.text) -1)
+            {
+                with(dialog) {
+                    instance_destroy();
+                }
+            }
+        }
+    }
+        //talk to the speaker
+    } else if(obj_player_stats.stamina >= 5)
+        {
+        //dash
+        state=scr_dash_state;
+        alarm[0]=room_speed/10;
+        obj_player_stats.stamina -= 5;
+        obj_player_stats.alarm[0] = room_speed;
+    }
 }
 
 if(obj_input.attack_key)
 {
-image_index = 0;
-state = scr_attack_state;
+    image_index = 0;
+    state = scr_attack_state;
 }
 
 //Get Direction
