@@ -66,6 +66,7 @@
     </scripts>
     <scripts name="helperscripts">
       <script>scripts\scr_chance.gml</script>
+      <script>scripts\scr_string_copy_words.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
