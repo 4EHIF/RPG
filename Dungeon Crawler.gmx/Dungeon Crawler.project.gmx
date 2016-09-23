@@ -86,12 +86,14 @@
       <object>objects\obj_health</object>
       <object>objects\obj_expr</object>
     </objects>
+    <object>objects\obj_input</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_FirstRoom</room>
     <room>rooms\rm_SecondRoom</room>
     <room>rooms\rm_MainMenu</room>
     <room>rooms\rm_CharCreation</room>
+    <room>rooms\rm_pause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
