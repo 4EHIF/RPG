@@ -51,11 +51,11 @@ hp = 3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Drop expr
+            <string>///Drop Items
 instance_create(x,y,obj_expr);
 
 //Drop a health pack
-if(scr_chance(.5))
+if(scr_chance(.35))
 {
     instance_create(x + random_range(-4,4),y + random_range(-4,4), obj_health);
 }

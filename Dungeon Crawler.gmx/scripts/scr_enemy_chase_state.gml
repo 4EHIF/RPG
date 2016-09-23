@@ -6,7 +6,9 @@ var hspd = lengthdir_x(spd,dir);
 var vspd = lengthdir_y(spd,dir);
 
 //Makes the enemy look at the player when chasing
-image_xscale = sign(hspd);
-
+if(hspd != 0) 
+{
+    image_xscale = sign(hspd);
+}
 phy_position_x += hspd;
 phy_position_y += vspd;
