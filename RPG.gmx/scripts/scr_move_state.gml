@@ -26,13 +26,13 @@ if(obj_input.dash_key)
         }
     }
         //talk to the speaker
-    } else if(obj_player_stats.stamina >= 5)
+    } else if(obj_Player_Stats.stamina >= 5)
         {
         //dash
         state=scr_dash_state;
         alarm[0]=room_speed/10;
-        obj_player_stats.stamina -= 5;
-        obj_player_stats.alarm[0] = room_speed;
+        obj_Player_Stats.stamina -= 5;
+        obj_Player_Stats.alarm[0] = room_speed;
     }
 }
 
@@ -72,16 +72,16 @@ switch(face)
 {
 
     case RIGHT:
-        sprite_index = spr_player_right;
+        sprite_index = spr_Player_Right;
             break;
     case UP:
-        sprite_index = spr_player_up;
+        sprite_index = spr_Player_Up;
             break;
     case LEFT:
-        sprite_index = spr_player_left;
+        sprite_index = spr_Player_Left;
             break;
     case DOWN:
-        sprite_index = spr_player_down;
+        sprite_index = spr_Player_Down;
             break;
 
 }

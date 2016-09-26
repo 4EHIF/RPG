@@ -21,8 +21,13 @@
     <sprites name="HelperSprites">
       <sprite>sprites\spr_Damage</sprite>
     </sprites>
+    <sprites name="Enemys">
+      <sprite>sprites\spr_slime</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_grass</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="PlayerStatesAndMovement">
@@ -47,6 +52,9 @@
     </scripts>
   </scripts>
   <objects name="objects">
+    <objects name="Enemys">
+      <object>objects\obj_Enemy_Slime</object>
+    </objects>
     <objects name="PlayerRelated">
       <object>objects\obj_Player</object>
       <object>objects\obj_Player_Stats</object>
@@ -59,6 +67,11 @@
     </objects>
     <objects name="HelperObjects">
       <object>objects\obj_Damage</object>
+      <object>objects\obj_input</object>
+    </objects>
+    <objects name="DroppedItems">
+      <object>objects\obj_expr</object>
+      <object>objects\obj_health</object>
     </objects>
   </objects>
   <rooms name="rooms">
