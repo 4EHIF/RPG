@@ -1,4 +1,4 @@
-///scr_attack_state
+    ///scr_attack_state
 image_speed = .5;
 switch(sprite_index)
 {
