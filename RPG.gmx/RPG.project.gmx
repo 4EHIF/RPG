@@ -5,9 +5,52 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Player">
+      <sprites name="PlayerAttack">
+        <sprite>sprites\spr_Player_Attack_Down</sprite>
+        <sprite>sprites\spr_Player_Attack_Up</sprite>
+        <sprite>sprites\spr_Player_Attack_Right</sprite>
+        <sprite>sprites\spr_Player_Attack_Left</sprite>
+      </sprites>
+      <sprite>sprites\spr_Player_Down</sprite>
+      <sprite>sprites\spr_Player_Up</sprite>
+      <sprite>sprites\spr_Player_Left</sprite>
+      <sprite>sprites\spr_Player_Right</sprite>
+    </sprites>
+    <sprites name="HelperSprites">
+      <sprite>sprites\spr_Damage</sprite>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="PlayerStatesAndMovement">
+      <script>scripts\scr_move_state.gml</script>
+      <script>scripts\scr_get_input.gml</script>
+      <script>scripts\scr_dash_state.gml</script>
+      <script>scripts\scr_attack_state.gml</script>
+      <script>scripts\scr_get_face.gml</script>
+    </scripts>
+  </scripts>
+  <objects name="objects">
+    <objects name="PlayerRelated">
+      <object>objects\obj_Player</object>
+      <object>objects\obj_Player_Stats</object>
+      <object>objects\obj_Dash_Effect</object>
+    </objects>
+    <objects name="ParentObjects">
+      <object>objects\obj_Lifeform_Player</object>
+      <object>objects\obj_Lifeform_Npc</object>
+      <object>objects\obj_Lifeform_Enemys</object>
+    </objects>
+    <objects name="HelperObjects">
+      <object>objects\obj_Damage</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_RoomOne</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
