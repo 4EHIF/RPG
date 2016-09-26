@@ -61,8 +61,6 @@
       <object>objects\obj_Dash_Effect</object>
     </objects>
     <objects name="ParentObjects">
-      <object>objects\obj_Lifeform_Player</object>
-      <object>objects\obj_Lifeform_Npc</object>
       <object>objects\obj_Lifeform_Enemys</object>
     </objects>
     <objects name="HelperObjects">
