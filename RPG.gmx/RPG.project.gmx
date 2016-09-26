@@ -20,6 +20,7 @@
     </sprites>
     <sprites name="HelperSprites">
       <sprite>sprites\spr_Damage</sprite>
+      <sprite>sprites\spr_Dialog_Box</sprite>
     </sprites>
     <sprites name="Enemys">
       <sprite>sprites\spr_slime</sprite>
