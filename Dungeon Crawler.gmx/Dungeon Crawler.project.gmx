@@ -70,6 +70,7 @@
     </scripts>
     <scripts name="helperscripts">
       <script>scripts\scr_chance.gml</script>
+      <script>scripts\scr_string_copy_words.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -107,11 +108,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_FirstRoom</room>
-    <room>rooms\rm_SecondRoom</room>
-    <room>rooms\rm_MainMenu</room>
-    <room>rooms\rm_CharCreation</room>
-    <room>rooms\rm_pause</room>
+    <room>rooms\rm_RoomOne</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

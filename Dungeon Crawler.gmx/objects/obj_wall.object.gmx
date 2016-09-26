@@ -32,7 +32,7 @@ depth = -y;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="Player">
+    <event eventtype="4" ename="obj_enemy_slime">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -55,7 +55,7 @@ depth = -y;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_enemy_slime">
+    <event eventtype="4" ename="Player">
       <action>
         <libid>1</libid>
         <id>603</id>
