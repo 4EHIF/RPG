@@ -122,7 +122,7 @@ if(other.id != creator) {
             <kind>1</kind>
             <string>///Damage all lifeforms
 if(other.id != creator) {
-    obj_player_stats.hp -= damage;
+    obj_Player_Stats.hp -= damage;
     
     //Apply Knockback
     var knockback = 500;
