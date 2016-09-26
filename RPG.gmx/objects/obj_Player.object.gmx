@@ -3,7 +3,7 @@
   <spriteName>spr_Player_Down</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10</depth>
   <persistent>0</persistent>
   <parentName>obj_Lifeform_Enemys</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -93,6 +93,77 @@ script_execute(state);
 if(obj_Player_Stats.hp &lt;= 0) 
 {
     instance_destroy();
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_health">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Collect health
+with(other) instance_destroy();
+//Level up code
+with(obj_player_stats) 
+{
+    hp = min(hp+2,maxhp);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_expr">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Collect expr
+with(other) instance_destroy();
+//Level up code
+with(obj_player_stats) 
+{
+    expr += 1;
+    if(expr &gt;= maxexpr)
+    {
+        level += 1;
+        expr = expr-maxexpr;
+        maxexpr *= 2;
+        hp += 2;
+        maxhp += 2;
+        stamina += 2;
+        maxstamina += 2;
+        attack += .5;
+        
+        
+    }
 }
 </string>
           </argument>

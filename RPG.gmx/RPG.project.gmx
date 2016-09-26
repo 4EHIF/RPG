@@ -66,6 +66,7 @@
     <objects name="HelperObjects">
       <object>objects\obj_Damage</object>
       <object>objects\obj_input</object>
+      <object>objects\obj_view</object>
     </objects>
     <objects name="DroppedItems">
       <object>objects\obj_expr</object>
