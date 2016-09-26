@@ -26,14 +26,18 @@
     </sprites>
     <sprites name="DroppedItems">
       <sprite>sprites\spr_Expr</sprite>
+      <sprite>sprites\spr_Health</sprite>
     </sprites>
     <sprites name="Surroundings">
       <sprite>sprites\spr_WallHorizontal</sprite>
       <sprite>sprites\spr_WallVertical</sprite>
+      <sprite>sprites\spr_singleWall</sprite>
+      <sprite>sprites\spr_sign</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
+    <background>background\bg_stone</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -84,6 +88,8 @@
     <objects name="Surroundings">
       <object>objects\obj_WallHoriz</object>
       <object>objects\obj_WallVertic</object>
+      <object>objects\obj_Wall</object>
+      <object>objects\obj_sign</object>
     </objects>
   </objects>
   <rooms name="rooms">
