@@ -32,6 +32,19 @@
       <script>scripts\scr_attack_state.gml</script>
       <script>scripts\scr_get_face.gml</script>
     </scripts>
+    <scripts name="EnemyStates">
+      <scripts name="EnemyHelperScripts">
+        <script>scripts\scr_check_for_player.gml</script>
+        <script>scripts\scr_enemy_choose_next_state.gml</script>
+      </scripts>
+      <script>scripts\scr_enemy_wander_state.gml</script>
+      <script>scripts\scr_enemy_idle_state.gml</script>
+      <script>scripts\scr_enemy_stall_state.gml</script>
+      <script>scripts\scr_enemy_chase_state.gml</script>
+    </scripts>
+    <scripts name="HelperScripts">
+      <script>scripts\scr_chance.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="PlayerRelated">
