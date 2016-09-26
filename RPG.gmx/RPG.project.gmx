@@ -24,6 +24,13 @@
     <sprites name="Enemys">
       <sprite>sprites\spr_slime</sprite>
     </sprites>
+    <sprites name="DroppedItems">
+      <sprite>sprites\spr_Expr</sprite>
+    </sprites>
+    <sprites name="Surroundings">
+      <sprite>sprites\spr_WallHorizontal</sprite>
+      <sprite>sprites\spr_WallVertical</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -67,10 +74,16 @@
       <object>objects\obj_Damage</object>
       <object>objects\obj_input</object>
       <object>objects\obj_view</object>
+      <object>objects\obj_dialog</object>
+      <object>objects\obj_speaker</object>
     </objects>
     <objects name="DroppedItems">
       <object>objects\obj_expr</object>
       <object>objects\obj_health</object>
+    </objects>
+    <objects name="Surroundings">
+      <object>objects\obj_WallHoriz</object>
+      <object>objects\obj_WallVertic</object>
     </objects>
   </objects>
   <rooms name="rooms">

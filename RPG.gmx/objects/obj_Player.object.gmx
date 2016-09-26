@@ -148,7 +148,7 @@ with(obj_player_stats)
             <string>///Collect expr
 with(other) instance_destroy();
 //Level up code
-with(obj_player_stats) 
+with(obj_Player_Stats) 
 {
     expr += 1;
     if(expr &gt;= maxexpr)
@@ -228,7 +228,7 @@ phy_fixed_rotation = true;
   <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
-  <PhysicsObjectLinearDamping>10</PhysicsObjectLinearDamping>
+  <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
   <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
