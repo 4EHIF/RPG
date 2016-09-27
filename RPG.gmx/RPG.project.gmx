@@ -98,6 +98,7 @@
       <object>objects\obj_Wall</object>
       <object>objects\obj_sign</object>
     </objects>
+    <object>objects\obj_projectile</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_RoomOne</room>
