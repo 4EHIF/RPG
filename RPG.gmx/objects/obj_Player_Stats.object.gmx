@@ -34,6 +34,7 @@ expr = 0;
 maxexpr = 3;
 level = 1;
 attack = 1;
+previous_room=room;
 </string>
           </argument>
         </arguments>
@@ -89,6 +90,24 @@ if (hp &lt; 0)
 if(stamina &lt; maxstamina &amp;&amp; alarm[0] == -1) 
 {
     stamina ++;
+}
+//Pause the game
+if(obj_input.pause_key)
+{
+    if(room!=rm_pause)
+    {
+        if(instance_exists(obj_Player))
+        {
+        obj_Player.persistent=false;
+        }
+        previous_room=room;
+        room_goto(rm_pause);
+    }
+    else
+    {
+        room_goto(previous_room);
+    }
+    obj_input.pause_key = false;
 }
 </string>
           </argument>

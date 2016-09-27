@@ -95,6 +95,7 @@ if(alarm[0]&lt;=0)
         }
         alarm[0]=room_speed/6;
     }    
+    
     if(obj_input.up_key)
     {
         if(menu_index&gt;0)
@@ -106,6 +107,27 @@ if(alarm[0]&lt;=0)
         menu_index=array_length_1d(option)-1
         }
         alarm[0]=room_speed/6;
+    }
+    
+    if(obj_input.dash_key){
+        switch(menu_index)
+        {
+            case 0:
+                room_goto(obj_Player_Stats.previous_room);
+                    break;
+            case 1:
+                scr_save_game();
+                    break;
+            case 2:
+                break;
+            case 3: 
+                game_end();
+                    break;
+            default:
+                break;
+        }    
+        
+        obj_input.dash_key = false;
     }
 }
 </string>
