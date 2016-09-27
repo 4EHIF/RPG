@@ -26,12 +26,12 @@ var yy = 0;
 {
     case spr_Player_Attack_Down:
        xx = x;
-       yy = y + 14;
+       yy = y + 18;
             break;
             
     case spr_Player_Attack_Up:
         xx = x;
-        yy = y + - 10;
+        yy = y + - 18;
             break;
     
     case spr_Player_Attack_Right:
