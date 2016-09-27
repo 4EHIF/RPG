@@ -61,6 +61,7 @@
     </scripts>
     <scripts name="HelperScripts">
       <script>scripts\scr_chance.gml</script>
+      <script>scripts\scr_string_copy_words.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
