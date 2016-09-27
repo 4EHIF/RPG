@@ -82,6 +82,7 @@
       <object>objects\obj_view</object>
       <object>objects\obj_dialog</object>
       <object>objects\obj_speaker</object>
+      <object>objects\obj_pause_menu</object>
     </objects>
     <objects name="DroppedItems">
       <object>objects\obj_expr</object>
@@ -96,6 +97,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_RoomOne</room>
+    <room>rooms\rm_pause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

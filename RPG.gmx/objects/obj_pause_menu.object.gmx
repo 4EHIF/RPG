@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,15 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Initialize the player's stats
-hp = 5;
-maxhp = hp;
-stamina = 10;
-maxstamina = stamina;
-expr = 0;
-maxexpr = 3;
-level = 1;
-attack = 1;
+            <string>///Initalize the menu
+title="Game Paused";
+
+option[0] = "Return";
+option[1] = "Save";
+option[2] = "Load";
+option[3] = "Quit";
+
+//Menu index
+menu_index=0;
 </string>
           </argument>
         </arguments>
@@ -56,7 +57,7 @@ attack = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Stamina Regeneration Alarm
+            <string>///Menu alarm
 </string>
           </argument>
         </arguments>
@@ -79,16 +80,33 @@ attack = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Control the stats 
-if (hp &lt; 0) 
+            <string>///Control the menu
+if(alarm[0]&lt;=0)
 {
-    hp = 0;
-}
-
-//stamina regen
-if(stamina &lt; maxstamina &amp;&amp; alarm[0] == -1) 
-{
-    stamina ++;
+    if(obj_input.down_key)
+    {
+        if(menu_index &lt; array_length_1d(option)-1)
+        {
+            menu_index++;
+        }
+        else
+        {
+        menu_index=0;
+        }
+        alarm[0]=room_speed/6;
+    }    
+    if(obj_input.up_key)
+    {
+        if(menu_index&gt;0)
+        {
+        menu_index--;
+        }
+        else
+        {
+        menu_index=array_length_1d(option)-1
+        }
+        alarm[0]=room_speed/6;
+    }
 }
 </string>
           </argument>
@@ -112,10 +130,25 @@ if(stamina &lt; maxstamina &amp;&amp; alarm[0] == -1)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Draw the stats
-draw_text(32,32, "Health: " + string(hp) + "/" + string(maxhp));
-draw_text(32,64,"Stamina: " + string(stamina) + "/" + string(maxstamina));
-draw_text(32,96,"Level: " + string(level));
+            <string>///Draw the menu
+var yy=display_get_gui_height()/2;
+var xx=display_get_gui_width()/2;
+
+draw_set_halign(fa_center);
+draw_text(xx,yy-64,title);
+
+for(var i=0;i&lt;=array_length_1d(option)-1;i++)
+{
+    draw_set_colour(c_gray);
+    if(i==menu_index)
+    {
+    draw_set_color(c_white);
+    }
+    draw_text(xx,yy+(i*32), option[i]);
+}
+draw_set_colour(c_white);
+draw_set_halign(fa_left);
+
 </string>
           </argument>
         </arguments>
