@@ -79,6 +79,7 @@ if(string_width(text_words) &gt;= width - (margin*2))
 text_visible = string_copy(text[text_page],0,text_count);
 
 //Update the text location
+//to do: Fix the text location
 var xx =(x-view_xview[0]) * display_scale;
 var yy =(y-view_yview[0]) * display_scale;
 
