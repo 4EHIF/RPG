@@ -62,7 +62,10 @@
     <scripts name="HelperScripts">
       <script>scripts\scr_chance.gml</script>
       <script>scripts\scr_string_copy_words.gml</script>
-      <script>scripts\scr_save_game.gml</script>
+      <scripts name="Saving And Loading">
+        <script>scripts\scr_load_game.gml</script>
+        <script>scripts\scr_save_game.gml</script>
+      </scripts>
     </scripts>
   </scripts>
   <objects name="objects">

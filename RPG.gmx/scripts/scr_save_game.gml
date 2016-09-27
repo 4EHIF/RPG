@@ -9,8 +9,8 @@ var save_data = ds_map_create();
 with(obj_Player_Stats)
 {
     save_data[? "Room"] = previous_room;
-    save_data[? "x"] = 0;
-    save_data[? "y"] = 0;
+    save_data[? "x"] = player_xstart;
+    save_data[? "y"] = player_ystart;
     save_data[? "HP"] = hp;
     save_data[? "Maxhp"] = maxhp;
     save_data[? "Stamina"] = stamina;

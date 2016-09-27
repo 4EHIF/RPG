@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>-10</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>obj_Lifeform_Enemys</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -216,6 +216,7 @@ if(state == scr_attack_state) {
             <kind>1</kind>
             <string>///Set fixed rotation
 phy_fixed_rotation = true;
+persistent = true;
 </string>
           </argument>
         </arguments>
