@@ -34,6 +34,7 @@ alarm[0] = room_speed*irandom_range(2,5);
 sight = 128;
 targetx = 0;
 targety = 0;
+hp = 4;
 </string>
           </argument>
         </arguments>

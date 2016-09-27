@@ -153,7 +153,7 @@ with(obj_Player_Stats)
     expr += 1;
     if(expr &gt;= maxexpr)
     {
-        level += 1;
+        level++;
         expr = expr-maxexpr;
         maxexpr *= 2;
         hp += 2;

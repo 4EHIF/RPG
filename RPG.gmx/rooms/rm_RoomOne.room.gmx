@@ -120,7 +120,7 @@
     <instance objName="obj_Wall" x="96" y="704" name="inst_2541DADD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="64" y="704" name="inst_723C52B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="32" y="704" name="inst_3AD0F07D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sign" x="160" y="128" name="inst_7E6B9C42" locked="0" code="Text[0] = &quot;Test schild ALLAHU AKBAR&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sign" x="160" y="128" name="inst_7E6B9C42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_input" x="96" y="160" name="inst_140FE5CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
