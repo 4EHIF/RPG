@@ -19,6 +19,8 @@ with(obj_Player_Stats)
     save_data[? "MaxExperience"] = maxexpr;
     save_data[? "level"] = level;
     save_data[? "Attack"] = attack;
+    save_data[? "Mana"] = mana;
+    save_data[? "MaxMana"] = maxmana;
 }
 //Encypt the ds to a string and then delete the ds
 var save_string = json_encode(save_data);

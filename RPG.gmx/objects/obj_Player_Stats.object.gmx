@@ -34,6 +34,8 @@ expr = 0;
 maxexpr = 3;
 level = 1;
 attack = .5;
+mana = 5;
+maxmana = mana;
 
 
 //Get the players xstart and ystart
@@ -198,6 +200,7 @@ room_start_action = NEW_ROOM;
 draw_text(32,32, "Health: " + string(hp) + "/" + string(maxhp));
 draw_text(32,64,"Stamina: " + string(stamina) + "/" + string(maxstamina));
 draw_text(32,96,"Level: " + string(level));
+draw_text(32,128,"Mana: " + string(mana));
 </string>
           </argument>
         </arguments>

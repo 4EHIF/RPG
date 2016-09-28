@@ -41,6 +41,8 @@ with(obj_Player_Stats)
     maxexpr = save_data[? "MaxExperience"];
     level = save_data[? "level"];
     attack = save_data[? "Attack"];
+    mana = save_data[? "Mana"]; 
+    maxmana = save_data[? "MaxMana"];
 }
 ds_map_destroy(save_data);
 
