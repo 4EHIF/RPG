@@ -1,5 +1,9 @@
 ///scr_move_state()
 ///scr_move_state
+/*
+This script is resonsible for player movement and other input such as 
+dashing and using abilities
+*/
 
 if(obj_input.dash_key)
 {
