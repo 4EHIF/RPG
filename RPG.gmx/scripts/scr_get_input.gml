@@ -6,7 +6,7 @@ down_key = keyboard_check(ord('S'));
 dash_key = mouse_check_button_pressed(mb_right);
 attack_key = mouse_check_button_pressed(mb_left);
 pause_key=keyboard_check_pressed(vk_escape);
-spell_key1 = keyboard_check_pressed(vk_numpad1);
+spell_key1 = keyboard_check_pressed(ord('1'));
 
 //Get the axis
 xaxis = (right_key - left_key);

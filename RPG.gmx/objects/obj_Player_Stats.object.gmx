@@ -33,7 +33,7 @@ maxstamina = stamina;
 expr = 0;
 maxexpr = 3;
 level = 1;
-attack = 1;
+attack = .5;
 
 
 //Get the players xstart and ystart
