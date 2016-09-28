@@ -42,9 +42,9 @@ if(obj_input.attack_key)
     state = scr_attack_state;
 }
 
-if(obj_input.spell_key1)
+if(obj_input.spell_key1 && obj_Player_Stats.mana >= 2.5)
 {
-//to do do the same as with dash key
+    
     var p = instance_create(x,y,obj_projectile);
     var xforce = lengthdir_x(60,face * 90);
     var yforce = lengthdir_y(60,face * 90);
@@ -53,7 +53,13 @@ if(obj_input.spell_key1)
     {
         physics_apply_impulse(x,y,xforce,yforce);
     }
-}
+    alarm[1] = room_speed/10;
+    obj_Player_Stats.mana -= 2.5;
+    obj_Player_Stats.alarm[1] = room_speed; 
+        
+    
+    } 
+    
 
 //Get Direction
 dir = point_direction(0,0,obj_input.xaxis,obj_input.yaxis);
