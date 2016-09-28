@@ -5,8 +5,9 @@ if(instance_exists(obj_Player))
     if(dis < sight) 
     {
         state = scr_enemy_chase_state;
-        targetx = obj_Player.x;
-        targety = obj_Player.y;
+        var dir = point_direction(x,y,obj_Player.x, obj_Player.y);
+        xaxis = lengthdir_x(1,dir);
+        yaxis = lengthdir_y(1,dir);
     } else {
         scr_enemy_choose_next_state();
     } 

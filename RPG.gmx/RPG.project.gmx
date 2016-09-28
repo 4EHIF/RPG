@@ -53,6 +53,7 @@
       <scripts name="EnemyHelperScripts">
         <script>scripts\scr_check_for_player.gml</script>
         <script>scripts\scr_enemy_choose_next_state.gml</script>
+        <script>scripts\scr_move_axis.gml</script>
       </scripts>
       <script>scripts\scr_enemy_wander_state.gml</script>
       <script>scripts\scr_enemy_idle_state.gml</script>
