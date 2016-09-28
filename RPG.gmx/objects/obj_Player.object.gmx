@@ -39,7 +39,18 @@ image_speed = 0;
 state = scr_move_state;
 attacked = false;
 face = RIGHT;
+movement = MOVE;
 
+//Create the sprite array
+sprite[RIGHT,MOVE] = spr_Player_Right;
+sprite[UP,MOVE] =spr_Player_Up;
+sprite[LEFT,MOVE] = spr_Player_Left;
+sprite[DOWN,MOVE] = spr_Player_Down;
+
+sprite[RIGHT,ATTACK] = spr_Player_Attack_Right;
+sprite[UP,ATTACK] = spr_Player_Attack_Up;
+sprite[LEFT,ATTACK] = spr_Player_Attack_Left;
+sprite[DOWN,ATTACK] = spr_Player_Attack_Down;
 </string>
           </argument>
         </arguments>
@@ -89,6 +100,8 @@ state=scr_move_state;
             <string>///Player Movement and Death
 depth = -y;
 script_execute(state);
+sprite_index = sprite[face,movement];
+
 //Check for death
 if(obj_Player_Stats.hp &lt;= 0) 
 {

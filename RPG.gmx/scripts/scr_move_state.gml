@@ -4,7 +4,7 @@
 This script is resonsible for player movement and other input such as 
 dashing and using abilities
 */
-
+movement = MOVE;
 if(obj_input.dash_key)
 {
     var xdir = lengthdir_x(8,face * 90);
@@ -87,25 +87,7 @@ phy_position_y += vspd;
 
 //Control the sprite
 image_speed = sign(len) * .2;
-
 if(len = 0) image_index = 0;
 
 
-switch(face)
-{
-
-    case RIGHT:
-        sprite_index = spr_Player_Right;
-            break;
-    case UP:
-        sprite_index = spr_Player_Up;
-            break;
-    case LEFT:
-        sprite_index = spr_Player_Left;
-            break;
-    case DOWN:
-        sprite_index = spr_Player_Down;
-            break;
-
-}
 
