@@ -34,6 +34,7 @@
       <sprite>sprites\spr_WallVertical</sprite>
       <sprite>sprites\spr_singleWall</sprite>
       <sprite>sprites\spr_sign</sprite>
+      <sprite>sprites\spr_Door</sprite>
     </sprites>
     <sprites name="Spells">
       <sprite>sprites\spr_fireball</sprite>
@@ -101,11 +102,13 @@
       <object>objects\obj_WallVertic</object>
       <object>objects\obj_Wall</object>
       <object>objects\obj_sign</object>
+      <object>objects\obj_Door</object>
     </objects>
     <object>objects\obj_projectile</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_RoomOne</room>
+    <room>rooms\rm_RoomTwo</room>
     <room>rooms\rm_pause</room>
   </rooms>
   <help>

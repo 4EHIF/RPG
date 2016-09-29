@@ -52,6 +52,7 @@ if(obj_input.spell_key1 && obj_Player_Stats.mana >= 2.5)
     var p = instance_create(x,y,obj_projectile);
     var xforce = lengthdir_x(60,face * 90);
     var yforce = lengthdir_y(60,face * 90);
+    
     p.creator = id;
     with(p)
     {

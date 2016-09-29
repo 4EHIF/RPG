@@ -115,11 +115,13 @@
     <instance objName="obj_Wall" x="96" y="704" name="inst_2541DADD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="64" y="704" name="inst_723C52B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="32" y="704" name="inst_3AD0F07D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sign" x="160" y="128" name="inst_7E6B9C42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sign" x="160" y="128" name="inst_7E6B9C42" locked="0" code="text[0] = &quot;TEST ALLAHU AKBAR&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_input" x="96" y="160" name="inst_140FE5CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy_Slime" x="320" y="384" name="inst_0536C0BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_WallHoriz" x="0" y="0" name="inst_89D0FC02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_WallVertic" x="0" y="0" name="inst_620E7534" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Door" x="128" y="32" name="inst_42292A47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Door" x="96" y="32" name="inst_884BEB49" locked="0" code="rm_next = rm_RoomTwo;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="&lt;undefined&gt;" x="0" y="0" w="32" h="32" xo="0" yo="0" id="10000028" name="inst_9C710A53" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
