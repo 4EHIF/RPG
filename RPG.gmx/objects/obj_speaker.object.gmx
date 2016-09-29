@@ -28,8 +28,8 @@
             <string>///Initialize the speaker
 dialog = noone;
 dialog_page = 0;
-xoffset = -60;
-yoffset = -80;
+xoffset = -120;
+yoffset = -160;
 text[0] = "Test.";
 
 </string>

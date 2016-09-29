@@ -35,6 +35,9 @@
       <sprite>sprites\spr_singleWall</sprite>
       <sprite>sprites\spr_sign</sprite>
     </sprites>
+    <sprites name="Spells">
+      <sprite>sprites\spr_fireball</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
